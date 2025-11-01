@@ -6,7 +6,9 @@ import Book from './components/Book'
 const App = () => {
   return (
     <div>
-      <Title />
+      <Title 
+      txt="Easy React"
+      price={500} />
       <Book />
       </div>
   )
