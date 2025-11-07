@@ -1,25 +1,19 @@
-// rafce
-import React from 'react'
-import Title from './components/Title'
-import Book from './components/Book'
+//rafce
+import React, { useState } from 'react'
 
 const App = () => {
-  const user = [
-    {id: 1, name: "Jan"},
-    {id: 2, name: "Feb"}
-  ]
+  //JS
+  //const [state, setState] = useState(initialState)
+  const [msg, setMsg] = useState("Believe in yourself!")
+  console.log(msg)
 
+ 
+  
+    //HTML (JSX)
   return (
     <div>
-      <Title 
-        txt="Easy React"         price={500}       />
-      <Book data={user}>
-        <p>
-          This is a book about React.
-          <span> It is very useful for beginners. </span>
-        </p>
-        <button>Add to Cart</button>
-      </Book>              
+      App...{msg}
+      <button onClick={()=>setMsg("You can do it")}>BeepBeep</button>
       </div>
   )
 }
