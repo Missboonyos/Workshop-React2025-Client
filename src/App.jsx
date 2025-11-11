@@ -2,6 +2,7 @@
 import React from 'react'
 import FormInput from './components/FormInput'
 import ListBasic from './components/ListBasic'
+import UseEffectBasic from './components/UseEffectBasic';
 
 const App = () => {
   const users = [
@@ -14,6 +15,7 @@ const App = () => {
     <>
     <FormInput />
     <ListBasic users={users}/>
+    <UseEffectBasic />
     </>
   )
 }
