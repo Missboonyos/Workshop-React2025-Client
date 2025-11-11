@@ -3,6 +3,7 @@ import React from 'react'
 import FormInput from './components/FormInput'
 import ListBasic from './components/ListBasic'
 import UseEffectBasic from './components/UseEffectBasic';
+import FetchBasic from './components/FetchBasic';
 
 const App = () => {
   const users = [
@@ -13,9 +14,10 @@ const App = () => {
 
   return (
     <>
-    <FormInput />
+    {/* <FormInput />
     <ListBasic users={users}/>
-    <UseEffectBasic />
+    <UseEffectBasic /> */}
+    <FetchBasic />
     </>
   )
 }
