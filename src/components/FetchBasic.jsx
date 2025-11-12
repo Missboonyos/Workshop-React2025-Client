@@ -26,7 +26,8 @@ const FetchBasic = () => {
         {users.map((item)=> {
                 console.log(item);
                 return <div>
-                    <img src={item.avatar_url} />
+                    <img src={item.avatar_url} 
+                    alt={item.login}/>
                     <h3>{item.login}</h3>
                     </div>
             })}        
