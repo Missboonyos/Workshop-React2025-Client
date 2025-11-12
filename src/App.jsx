@@ -4,6 +4,7 @@ import FormInput from './components/FormInput'
 import ListBasic from './components/ListBasic'
 import UseEffectBasic from './components/UseEffectBasic';
 import FetchBasic from './components/FetchBasic';
+import ConditionBasic from './components/ConditionBasic';
 
 const App = () => {
   const users = [
@@ -16,8 +17,9 @@ const App = () => {
     <>
     {/* <FormInput />
     <ListBasic users={users}/>
-    <UseEffectBasic /> */}
-    <FetchBasic />
+    <UseEffectBasic />
+    <FetchBasic /> */}
+    <ConditionBasic />
     </>
   )
 }
