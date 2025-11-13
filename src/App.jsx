@@ -5,6 +5,8 @@ import ListBasic from './components/ListBasic'
 import UseEffectBasic from './components/UseEffectBasic';
 import FetchBasic from './components/FetchBasic';
 import ConditionBasic from './components/ConditionBasic';
+import BasicUseReducer from './components/BasicUseReducer';
+import BasicUseReducer2 from './components/BasicUseReduce2';
 
 const App = () => {
   const users = [
@@ -18,8 +20,10 @@ const App = () => {
     {/* <FormInput />
     <ListBasic users={users}/>
     <UseEffectBasic />
-    <FetchBasic /> */}
+    <FetchBasic />
     <ConditionBasic />
+    <BasicUseReducer /> */}
+    <BasicUseReducer2 />
     </>
   )
 }
